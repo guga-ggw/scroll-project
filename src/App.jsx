@@ -78,7 +78,10 @@ function App() {
         <motion.h1 initial={{opacity : 0}} whileInView={{opacity : 1, transition : {duration : 1}}} viewport={{once : true}}>Skills</motion.h1>
         <div className="skills_box">
           {data.map((item, i) => (
-            <motion.img viewport={{once : true}} whileInView={{opacity : 1, x : 0}} initial ={{opacity : 0, x : -40}} transition={{delay : 0.1 * i, duration : 1.2, type : "spring", stiffness : 60}} id={item.property == "Framer Motion" ? "framermotion_img" : item.property == "HTML" ? "hc_img" : item.property == "CSS" ? "hc_img" : item.property == "React" ? "React_img" : item.property == "Redux" ? "Redux_img" : item.property == "React Router" ? "router_img" : "" } src={item.image}/>
+            <motion.img
+            viewport={{once : true}} whileInView={{opacity : 1, x : 0}} initial ={{opacity : 0, x : -40}} transition={{delay : 0.1 * i, duration : 1.2, type : "spring", stiffness : 60}} 
+            id={item.property == "Framer Motion" ? "framermotion_img" : item.property == "HTML" ? "hc_img" : item.property == "CSS" ? "hc_img" : item.property == "React" ? "React_img" : item.property == "Redux" ? "Redux_img" : item.property == "React Router" ? "router_img" : "" } 
+            src={item.image}/>
           ))}
         </div>
       </div>
