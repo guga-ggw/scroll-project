@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500;600;700&family=Edu+SA+Beginner:wght@700&family=Gabarito&family=Goldman:wght@400;700&family=IBM+Plex+Mono:ital,wght@0,700;1,700&family=Kanit:ital,wght@0,500;0,700;1,400;1,700&family=Oswald:wght@500;600&family=Roboto:ital,wght@0,900;1,700&family=Victor+Mono:ital,wght@0,500;1,300&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+
+.MainContent{
+  min-height: 500vh;
+  background:linear-gradient(90deg, rgb(149, 0, 255), rgb(4, 4, 0));
+}
+
+.starting_container{
+  width: 100%;
+  height: 100vh;
+  background:linear-gradient(90deg, rgb(149, 0, 255), rgb(4, 4, 0));
+  font-family: 'Bebas Neue', sans-serif;
+  overflow: hidden;
+}
+
+.starting_container img{
+  width: 35%;
+  height: 90vh;
+  position: absolute;
+  left: 30%;
+  top: 4%;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(5px 20px 50px rgb(0, 0, 0));
+  border-radius: 20%;
+  pointer-events: none;
+}
+
+.starting_container h1{
+  font-size: 240px;
+  letter-spacing: 2px;
+  color: white;
+  text-shadow: 2px 5px 10px black;
+  pointer-events: none;
+}
+
+.content_txt_box{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3%;
+  gap: 30px;
+}
+
+.skill_container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.skill_container h1{
+  text-align: center;
+  color: white;
+  font-size: 90px;
+  width: 400px;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 3px;
+  border-bottom: 3px solid white;
+}
+
+.skills_box img{
+  width: 100px;
+  height: 100px;
+}
+
+#framermotion_img{
+  scale: 2;
+  width: 150px;
+}
+
+.skills_box{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap;
+  padding: 90px 300px;
+  filter: drop-shadow(5px 20px 50px rgb(0, 0, 0));
+}
+
+#hc_img{
+  scale: 0.8;
+}
+
+#React_img{
+  width: 200px;
+}
+
+#Redux_img {
+  scale: 1.1;
+  width: 150px;
+}
+
+#router_img{
+  width: 140px;
+}
